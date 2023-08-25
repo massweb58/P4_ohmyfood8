@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main__container {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
+
+.logo {
+  width: 162px;
+  height: 44px;
+}
+
+h1 {
+  font-family: "roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 42px;
+  padding-right: 58px;
+}
+
+p {
+  font-family: "roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-left: 34px;
+  padding-right: 26px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location {
+  background-color: #EAEAEA;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+
+.exploration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.exploration__btn {
+  height: 50px;
+  border-style: solid;
+  border-radius: 25px;
+  background: linear-gradient(#9356DC, #FF79DA);
+  box-shadow: 0px 4px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 82px;
+  padding-right: 75px;
+}
+.exploration__btn span {
+  color: white;
+  font-family: "roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.exploration__btn :hover {
+  border-style: solid, 1px;
+  border-color: #9356DC;
+}
+
+.fonctionnement {
+  height: 440px;
+}
+
+h2 {
+  font-family: "roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.fonctionnement__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding-left: 32.51px;
+  padding-right: 20px;
+}
+
+.fonctionnement__box__rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #F6F6F6;
+  gap: 27px;
+  box-shadow: 0px 4px 15px 0px;
+}
+.fonctionnement__box__rectangle span {
+  font-family: "roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.fonctionnement__box__ellipse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background-color: #9356DC;
+  color: white;
+  font-family: "roboto";
+  font-size: 14.182px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.fonctionnement__box__ellipse .fa-solid {
+  color: #7E7E7E;
+}
+
+.card {
+  height: 251px;
+}
+.card img {
+  border-radius: 15px;
+  height: 231px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background-color: #F6F6F6;
+}
+
+.restaurants__cards {
+  padding-left: 17px;
+  padding-right: 18px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.card-content {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer {
+  height: 186px;
+  background-color: #7E7E7E;
+}
+footer ul {
+  padding: 25px 22px 25px 22px;
+}
+
+/*# sourceMappingURL=style.css.map */

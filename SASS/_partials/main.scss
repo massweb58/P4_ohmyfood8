@@ -1,0 +1,188 @@
+// GENERAL//
+
+// Variables police//
+
+$font-text: 'roboto';
+
+// Variables couleurs//
+
+$primary-color: #9356DC;
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;
+$rectangle-color: #F6F6F6;
+$grey-color : #7E7E7E;
+
+
+
+h1 {
+    font-family: $font-text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 42px;
+    padding-right: 58px;
+}
+
+p {
+    font-family: $font-text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 34px;
+    padding-right: 26px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location {
+    background-color: #EAEAEA;
+    height: 50px;
+    display: flex;
+    flex-direction : row;
+    align-items: center; 
+    justify-content: center;
+    gap : 17px;
+}
+
+.exploration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exploration__btn {
+    height: 50px;
+    border-style: solid;
+    border-radius: 25px;
+    background: linear-gradient($primary-color, $secondary-color);
+    box-shadow: 0px 4px 10px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 82px;
+    padding-right: 75px;
+        span {
+            color: white;
+            font-family: $font-text;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+}
+
+.exploration__btn :hover {
+    border-style: solid, 1px;
+    border-color: $primary-color;  
+}
+
+
+
+.fonctionnement {
+    height: 440px;
+
+}
+
+h2 {
+ 
+    font-family: $font-text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fonctionnement__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 25px;
+    padding-left: 32.51px;
+    padding-right: 20px;
+}
+
+.fonctionnement__box__rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: $rectangle-color;
+    gap: 27px;
+    box-shadow: 0px 4px 15px 0px;
+        span {
+            font-family: $font-text;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+    }
+}
+
+.fonctionnement__box__ellipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: $primary-color;
+    color: white;
+    font-family: $font-text;
+    font-size: 14.182px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+        .fa-solid {
+            color: $grey-color;
+        }
+}
+
+.card {
+    height: 251px ;
+    img {
+        border-radius: 15px;
+        height: 231px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.restaurants {
+    display: flex;
+    flex-direction: column;
+    gap :18px;
+    background-color: $rectangle-color;
+}
+
+.restaurants__cards {
+    padding-left: 17px;
+    padding-right: 18px;
+    border-radius: 15px;
+    width: 100%;
+    
+}
+
+.card-content {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+footer {
+    height: 186px;
+    background-color :#7E7E7E;
+        ul {
+            padding: 25px 22px 25px 22px;
+        }
+}
